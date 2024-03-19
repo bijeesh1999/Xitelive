@@ -1,0 +1,30 @@
+
+.App-header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 0 5rem;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    .options{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+        }
+        button{
+            background-color: red;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        }
+    }
+}
